@@ -30,3 +30,7 @@
      ?o :movieTitle ?m.
     }
     LIMIT 10
+    
+**6. D2RQ dump RDF**
+
+    dump-rdf -o ./../demo_movie.nt ./../movie_mapping.ttl
