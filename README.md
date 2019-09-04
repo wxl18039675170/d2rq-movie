@@ -10,7 +10,7 @@
     
 **3. Create mapping.ttl**
 
-    generate-mapping -o ./../movie_mapping.ttl -u root -p Philips@1 jdbc:mysql://localhost:3306/kg_demo_movie?useSSL=false&useUnicode=true&characterEncoding=utf8
+    generate-mapping -o ./../movie_mapping.ttl -u 'user name' -p 'user password' jdbc:mysql://localhost:3306/kg_demo_movie?useSSL=false&useUnicode=true&characterEncoding=utf8
     
     NOTE: if you want to support. please add:d2rq:jdbcDSN "jdbc:mysql://localhost/kg_demo_movie?useSSL=false&useUnicode=true&characterEncoding=utf8";
     
