@@ -21,7 +21,7 @@
 **5. Test the Server**
 
     Open http://localhost:2020/ in a web browser. and click:this AJAX-based SPARQL Explorer.
-    input SPARQL:
+    input SPARQL:刘德华主演了哪些电影？
     SELECT DISTINCT ?s ?y ?m WHERE {
     ?s rdf:type:Person.
     ?s :personEnglishName "Andy Lau".
@@ -32,5 +32,5 @@
     LIMIT 10
     
 **6. D2RQ dump RDF**
-
+    
     dump-rdf -o ./../demo_movie.nt ./../movie_mapping.ttl
